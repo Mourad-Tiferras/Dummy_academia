@@ -1,0 +1,3 @@
+# Nothing Pro here buddy :) 
+
+### This is just a dummy repo (not professional) made for academic purposes, eg; Home-works, and academic projects etc...
