@@ -24,4 +24,19 @@
 ### Q8: Why do we need chmod +x?  
 ==> In order to give the exexution permession
 
-### Q9: 
+### Q9:  What does $(pwd) do?  
+==> It's a shell variable that print current working directory  
+
+### Q10: Q10: How do you create and use a variable in Bash?  
+==> U can creat a shell varr by assigning with equal sign ``=``, and use it with dollar sign ``$``  
+
+### Q11: What will the second loop display if there are no .txt files?
+==> The loop will display the literal string itself *.txt
+
+### Q12: What is $1 in the script? 
+==> It refers to the first command line argument
+
+### Q13: What does -f test for?  
+==> That's refer to regular files
+
+
