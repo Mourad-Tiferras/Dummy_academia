@@ -87,7 +87,6 @@
 - **Virtual Memory:** Used by processes, large and abstract
 - **Physical Memory:** Actual RAM available on the machine
 
-### Key Points
 - **Why are virtual addresses larger?**  
   → To provide each process with a large, isolated address space
 
