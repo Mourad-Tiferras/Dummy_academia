@@ -52,10 +52,8 @@
 ##  Exercice 4: Demonstrating Isolation
 
 ###  Commands Used
-- `sleep 1000 &`
-- `sleep 1000 &`
-- `ps aux | grep sleep`
-- `cat /proc/<PID>/maps`
+- `sleep 1000 & ps -e | grep sleep`
+- `cat /proc/968237/maps`
 
 ###  Answers
 - **Do both processes have similar address ranges?**  
