@@ -1,24 +1,17 @@
-# 🧪 Lab: Virtual vs Physical Memory
+# Lab: Virtual vs Physical Memory
 
-## 🎯 Objective
-Understand the difference between:
-- Virtual memory (used by processes)
-- Physical memory (RAM)
-- Address translation performed by the system
 
----
+##  Exercice 1: View Virtual Memory of a Process
 
-## 🧩 Exercice 1: View Virtual Memory of a Process
-
-### 🔹 Process Information
+###  Process Information
 - Command used: `sleep 1000 & ps -e | grep sleep`
 - PID: **967510**
 
-### 🔹 Observations
+###  Observations
 - The memory map contains **multiple regions**
 - Addresses are in **hexadecimal format**
 
-### ❓ Answers
+### Answers
 - **Are these addresses large or small?**  
   → Very large (64-bit hexadecimal addresses)
 
@@ -33,10 +26,10 @@ Understand the difference between:
 - `free -h`
 - `cat /proc/meminfo`
 
-### 🔹 Observations
+###  Observations
 - Total physical memory: **~15 GB (16043600 kB)**
 
-### ❓ Answers
+###  Answers
 - **Is physical memory smaller than virtual space?**  
   → Yes, physical memory is much smaller than virtual memory space
 
