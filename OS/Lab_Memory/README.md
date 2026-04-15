@@ -95,8 +95,3 @@
   → Using page tables managed by the Memory Management Unit (MMU)
 
 ---
-
-## Summary:
-- Virtual memory allows process isolation and flexibility
-- Physical memory is limited and shared
-- The OS handles translation between both using hardware and kernel mechanisms
