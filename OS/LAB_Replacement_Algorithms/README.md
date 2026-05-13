@@ -13,9 +13,10 @@
 | **Optimal** | **7** | `[3, 4, 5]` |
 | **MRU** | **11** | `[5, 2, 1]` |
 
----
+## Part 2:
+### Check [part2.c](./part2.c)
 
-## Part 3: Verification and Analysis
+## Part 3:
 
 ### 1. Performance Comparison
 * **Best Performer**: The **Optimal** algorithm performed best with the fewest page faults.
