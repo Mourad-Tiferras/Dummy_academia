@@ -14,12 +14,12 @@ int fifo(int pages[], int n, int frames_count) {
     for (int i = 0; i < frames_count; i++) frames[i] = -1;
 
     int faults = 0;
-    int index = 0; // Tracks the "oldest" slot to replace
+    int index = 0;
 
     for (int i = 0; i < n; i++) {
         if (!isPageInFrames(pages[i], frames, frames_count)) {
             frames[index] = pages[i];
-            index = (index + 1) % frames_count; // Circular buffer logic
+            index = (index + 1) % frames_count;
             faults++;
         }
     }
