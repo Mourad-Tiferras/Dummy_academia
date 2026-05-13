@@ -1,7 +1,19 @@
 import java.util.Scanner;
+import java.util.Random;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        
+
+        // Random rng = new Random();
+        // int die = rng.nextInt(6) + 1;
+        // double prob = rng.nextDouble();
+        // System.out.println("Die roll: " + die);
+        // System.out.println("Random probability: " + prob);
+
         // String str = "Hello l3alaam";
         // System.out.println(str);
         // String age = args[0];
